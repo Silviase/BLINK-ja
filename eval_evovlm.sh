@@ -1,0 +1,1 @@
+python eval/test_benchmark.py --model_name EvoVLM --task_name all
