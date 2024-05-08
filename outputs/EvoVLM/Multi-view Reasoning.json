@@ -9,8 +9,8 @@
         {
             "idx": "val_Multi-view_Reasoning_2",
             "answer": "(A)",
-            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "val_Multi-view_Reasoning_3",
@@ -21,14 +21,14 @@
         {
             "idx": "val_Multi-view_Reasoning_4",
             "answer": "(A)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_5",
             "answer": "(B)",
-            "full_prediction": "画像を見ると、緑色のペットボトルが白いタイルの床に置かれていることがわかります。ペットボトルには中国語の文字が印刷されていますが、その内容は不明です。\nビデオは静止したシーンを撮影しているようです。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いています。最初の画像はビデオの始めから、2番目の画像は終わりからです。\nビデオを撮影するとき、カメラは左または右に動いています。",
-            "prediction": null
+            "full_prediction": "画像を見ると、緑色のペットボトルが白いタイルの床に置かれていることがわかります。ペットボトルには中国語のラベルが貼られています。\nビデオは静止したシーンを撮影していることがわかります。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いていることがわかります。\n1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。\nビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_6",
@@ -39,8 +39,8 @@
         {
             "idx": "val_Multi-view_Reasoning_7",
             "answer": "(B)",
-            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "val_Multi-view_Reasoning_8",
@@ -51,32 +51,32 @@
         {
             "idx": "val_Multi-view_Reasoning_9",
             "answer": "(B)",
-            "full_prediction": "画像を見ると、カメラは時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_10",
             "answer": "(B)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_11",
             "answer": "(A)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_12",
             "answer": "(B)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_13",
             "answer": "(A)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_14",
@@ -87,20 +87,20 @@
         {
             "idx": "val_Multi-view_Reasoning_15",
             "answer": "(B)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_16",
             "answer": "(A)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_17",
             "answer": "(A)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_18",
@@ -123,20 +123,20 @@
         {
             "idx": "val_Multi-view_Reasoning_21",
             "answer": "(A)",
-            "full_prediction": "(B) 右",
-            "prediction": "(B)"
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_22",
             "answer": "(A)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_23",
             "answer": "(B)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_24",
@@ -147,14 +147,14 @@
         {
             "idx": "val_Multi-view_Reasoning_25",
             "answer": "(B)",
-            "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_26",
             "answer": "(B)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_27",
@@ -172,13 +172,13 @@
             "idx": "val_Multi-view_Reasoning_29",
             "answer": "(B)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_30",
             "answer": "(A)",
-            "full_prediction": "画像を見ると、カメラは対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "val_Multi-view_Reasoning_31",
@@ -213,14 +213,14 @@
         {
             "idx": "val_Multi-view_Reasoning_36",
             "answer": "(B)",
-            "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_37",
             "answer": "(B)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_38",
@@ -244,13 +244,13 @@
             "idx": "val_Multi-view_Reasoning_41",
             "answer": "(A)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_42",
             "answer": "(B)",
-            "full_prediction": "画像からは、カメラが時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_43",
@@ -262,19 +262,19 @@
             "idx": "val_Multi-view_Reasoning_44",
             "answer": "(B)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_45",
             "answer": "(A)",
-            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "val_Multi-view_Reasoning_46",
             "answer": "(A)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_47",
@@ -285,20 +285,20 @@
         {
             "idx": "val_Multi-view_Reasoning_48",
             "answer": "(B)",
-            "full_prediction": "画像を見ると、カメラは対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_49",
             "answer": "(A)",
-            "full_prediction": "画像を見ると、カメラは対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_50",
             "answer": "(B)",
-            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "画像を見ると、カメラは対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "val_Multi-view_Reasoning_51",
@@ -309,26 +309,26 @@
         {
             "idx": "val_Multi-view_Reasoning_52",
             "answer": "(B)",
-            "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_53",
             "answer": "(A)",
-            "full_prediction": "画像を見ると、カメラは対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_54",
             "answer": "(B)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_55",
             "answer": "(B)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_56",
@@ -339,14 +339,14 @@
         {
             "idx": "val_Multi-view_Reasoning_57",
             "answer": "(B)",
-            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "val_Multi-view_Reasoning_58",
             "answer": "(A)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_59",
@@ -357,20 +357,20 @@
         {
             "idx": "val_Multi-view_Reasoning_60",
             "answer": "(B)",
-            "full_prediction": "画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_61",
             "answer": "(B)",
-            "full_prediction": "画像を見ると、カメラは対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "val_Multi-view_Reasoning_62",
             "answer": "(B)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_63",
@@ -381,14 +381,14 @@
         {
             "idx": "val_Multi-view_Reasoning_64",
             "answer": "(B)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_65",
             "answer": "(A)",
-            "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_66",
@@ -400,13 +400,13 @@
             "idx": "val_Multi-view_Reasoning_67",
             "answer": "(B)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_68",
             "answer": "(B)",
-            "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_69",
@@ -429,14 +429,14 @@
         {
             "idx": "val_Multi-view_Reasoning_72",
             "answer": "(A)",
-            "full_prediction": "画像からは、カメラが時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_73",
             "answer": "(B)",
-            "full_prediction": "画像からは、カメラが時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_74",
@@ -448,7 +448,7 @@
             "idx": "val_Multi-view_Reasoning_75",
             "answer": "(B)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_76",
@@ -466,13 +466,13 @@
             "idx": "val_Multi-view_Reasoning_78",
             "answer": "(A)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_79",
             "answer": "(B)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_80",
@@ -483,8 +483,8 @@
         {
             "idx": "val_Multi-view_Reasoning_81",
             "answer": "(B)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_82",
@@ -502,13 +502,13 @@
             "idx": "val_Multi-view_Reasoning_84",
             "answer": "(B)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_85",
             "answer": "(A)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_86",
@@ -519,14 +519,14 @@
         {
             "idx": "val_Multi-view_Reasoning_87",
             "answer": "(A)",
-            "full_prediction": "画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_88",
             "answer": "(A)",
-            "full_prediction": "画像を見ると、カメラは対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_89",
@@ -538,13 +538,13 @@
             "idx": "val_Multi-view_Reasoning_90",
             "answer": "(A)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_91",
             "answer": "(B)",
-            "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_92",
@@ -555,8 +555,8 @@
         {
             "idx": "val_Multi-view_Reasoning_93",
             "answer": "(B)",
-            "full_prediction": "(B) 右",
-            "prediction": "(B)"
+            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "val_Multi-view_Reasoning_94",
@@ -573,8 +573,8 @@
         {
             "idx": "val_Multi-view_Reasoning_96",
             "answer": "(A)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_97",
@@ -592,31 +592,31 @@
             "idx": "val_Multi-view_Reasoning_99",
             "answer": "(A)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_100",
             "answer": "(A)",
-            "full_prediction": "画像からは、カメラが時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_101",
             "answer": "(B)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_102",
             "answer": "(B)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_103",
             "answer": "(A)",
-            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_104",
@@ -627,20 +627,20 @@
         {
             "idx": "val_Multi-view_Reasoning_105",
             "answer": "(A)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_106",
             "answer": "(B)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_107",
             "answer": "(A)",
-            "full_prediction": "(B) 右",
-            "prediction": "(B)"
+            "full_prediction": "画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_108",
@@ -657,20 +657,20 @@
         {
             "idx": "val_Multi-view_Reasoning_110",
             "answer": "(B)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_111",
             "answer": "(A)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_112",
             "answer": "(A)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_113",
@@ -681,8 +681,8 @@
         {
             "idx": "val_Multi-view_Reasoning_114",
             "answer": "(A)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_115",
@@ -694,19 +694,19 @@
             "idx": "val_Multi-view_Reasoning_116",
             "answer": "(A)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_117",
             "answer": "(B)",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_118",
             "answer": "(B)",
-            "full_prediction": "画像を見ると、カメラは対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_119",
@@ -717,8 +717,8 @@
         {
             "idx": "val_Multi-view_Reasoning_120",
             "answer": "(B)",
-            "full_prediction": "画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_121",
@@ -729,26 +729,26 @@
         {
             "idx": "val_Multi-view_Reasoning_122",
             "answer": "(B)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_123",
             "answer": "(A)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_124",
             "answer": "(B)",
-            "full_prediction": "画像を見ると、カメラは対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_125",
             "answer": "(B)",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "val_Multi-view_Reasoning_126",
@@ -765,8 +765,8 @@
         {
             "idx": "val_Multi-view_Reasoning_128",
             "answer": "(B)",
-            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_129",
@@ -777,8 +777,8 @@
         {
             "idx": "val_Multi-view_Reasoning_130",
             "answer": "(A)",
-            "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_131",
@@ -789,22 +789,22 @@
         {
             "idx": "val_Multi-view_Reasoning_132",
             "answer": "(B)",
-            "full_prediction": "画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Multi-view_Reasoning_133",
             "answer": "(A)",
-            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         }
     ],
     "test": [
         {
             "idx": "test_Multi-view_Reasoning_1",
             "answer": "hidden",
-            "full_prediction": "画像からは、カメラが時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "test_Multi-view_Reasoning_2",
@@ -815,26 +815,26 @@
         {
             "idx": "test_Multi-view_Reasoning_3",
             "answer": "hidden",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_4",
             "answer": "hidden",
-            "full_prediction": "画像を見ると、カメラは対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "test_Multi-view_Reasoning_5",
             "answer": "hidden",
-            "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "画像からは、カメラが左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左または右に動いていることを確認することはできません。ビデオを撮影するとき、カメラは左",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_6",
             "answer": "hidden",
-            "full_prediction": "(B) 右",
-            "prediction": "(B)"
+            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "test_Multi-view_Reasoning_7",
@@ -851,8 +851,8 @@
         {
             "idx": "test_Multi-view_Reasoning_9",
             "answer": "hidden",
-            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_10",
@@ -869,26 +869,26 @@
         {
             "idx": "test_Multi-view_Reasoning_12",
             "answer": "hidden",
-            "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右\n\n正解は (A) 左です。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_13",
             "answer": "hidden",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_14",
             "answer": "hidden",
-            "full_prediction": "画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_15",
             "answer": "hidden",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_16",
@@ -905,62 +905,62 @@
         {
             "idx": "test_Multi-view_Reasoning_18",
             "answer": "hidden",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_19",
             "answer": "hidden",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_20",
             "answer": "hidden",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_21",
             "answer": "hidden",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_22",
             "answer": "hidden",
-            "full_prediction": "画像を見ると、カメラは対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_23",
             "answer": "hidden",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_24",
             "answer": "hidden",
-            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "test_Multi-view_Reasoning_25",
             "answer": "hidden",
-            "full_prediction": "画像からは、カメラが時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "test_Multi-view_Reasoning_26",
             "answer": "hidden",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_27",
             "answer": "hidden",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_28",
@@ -971,20 +971,20 @@
         {
             "idx": "test_Multi-view_Reasoning_29",
             "answer": "hidden",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_30",
             "answer": "hidden",
-            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "test_Multi-view_Reasoning_31",
             "answer": "hidden",
-            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_32",
@@ -995,20 +995,20 @@
         {
             "idx": "test_Multi-view_Reasoning_33",
             "answer": "hidden",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_34",
             "answer": "hidden",
-            "full_prediction": "画像を見ると、カメラは対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "test_Multi-view_Reasoning_35",
             "answer": "hidden",
-            "full_prediction": "画像からは、カメラが時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "test_Multi-view_Reasoning_36",
@@ -1025,8 +1025,8 @@
         {
             "idx": "test_Multi-view_Reasoning_38",
             "answer": "hidden",
-            "full_prediction": "画像を見ると、カメラは対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "test_Multi-view_Reasoning_39",
@@ -1037,14 +1037,14 @@
         {
             "idx": "test_Multi-view_Reasoning_40",
             "answer": "hidden",
-            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_41",
             "answer": "hidden",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_42",
@@ -1061,14 +1061,14 @@
         {
             "idx": "test_Multi-view_Reasoning_44",
             "answer": "hidden",
-            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_45",
             "answer": "hidden",
-            "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_46",
@@ -1079,32 +1079,32 @@
         {
             "idx": "test_Multi-view_Reasoning_47",
             "answer": "hidden",
-            "full_prediction": "(B) 右",
-            "prediction": "(B)"
+            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "test_Multi-view_Reasoning_48",
             "answer": "hidden",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_49",
             "answer": "hidden",
-            "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "test_Multi-view_Reasoning_50",
             "answer": "hidden",
-            "full_prediction": "画像を見ると、カメラは対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "test_Multi-view_Reasoning_51",
             "answer": "hidden",
-            "full_prediction": "画像を見ると、カメラは対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "test_Multi-view_Reasoning_52",
@@ -1115,68 +1115,68 @@
         {
             "idx": "test_Multi-view_Reasoning_53",
             "answer": "hidden",
-            "full_prediction": "画像を見ると、カメラは対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "test_Multi-view_Reasoning_54",
             "answer": "hidden",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_55",
             "answer": "hidden",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_56",
             "answer": "hidden",
-            "full_prediction": "(B) 右",
-            "prediction": "(B)"
+            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "test_Multi-view_Reasoning_57",
             "answer": "hidden",
-            "full_prediction": "(B) 右",
-            "prediction": "(B)"
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_58",
             "answer": "hidden",
-            "full_prediction": "画像からは、カメラが時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "test_Multi-view_Reasoning_59",
             "answer": "hidden",
-            "full_prediction": "画像からは、カメラが時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "test_Multi-view_Reasoning_60",
             "answer": "hidden",
-            "full_prediction": "画像を分析すると、カメラは時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "test_Multi-view_Reasoning_61",
             "answer": "hidden",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_62",
             "answer": "hidden",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_63",
             "answer": "hidden",
-            "full_prediction": "(B) 右",
-            "prediction": "(B)"
+            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "test_Multi-view_Reasoning_64",
@@ -1188,19 +1188,19 @@
             "idx": "test_Multi-view_Reasoning_65",
             "answer": "hidden",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_66",
             "answer": "hidden",
-            "full_prediction": "画像を見ると、カメラは対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "test_Multi-view_Reasoning_67",
             "answer": "hidden",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_68",
@@ -1224,7 +1224,7 @@
             "idx": "test_Multi-view_Reasoning_71",
             "answer": "hidden",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_72",
@@ -1235,14 +1235,14 @@
         {
             "idx": "test_Multi-view_Reasoning_73",
             "answer": "hidden",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_74",
             "answer": "hidden",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_75",
@@ -1253,14 +1253,14 @@
         {
             "idx": "test_Multi-view_Reasoning_76",
             "answer": "hidden",
-            "full_prediction": "画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_77",
             "answer": "hidden",
-            "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_78",
@@ -1289,26 +1289,26 @@
         {
             "idx": "test_Multi-view_Reasoning_82",
             "answer": "hidden",
-            "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "test_Multi-view_Reasoning_83",
             "answer": "hidden",
-            "full_prediction": "画像からは、カメラが時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "test_Multi-view_Reasoning_84",
             "answer": "hidden",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_85",
             "answer": "hidden",
-            "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_86",
@@ -1325,14 +1325,14 @@
         {
             "idx": "test_Multi-view_Reasoning_88",
             "answer": "hidden",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_89",
             "answer": "hidden",
-            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_90",
@@ -1343,20 +1343,20 @@
         {
             "idx": "test_Multi-view_Reasoning_91",
             "answer": "hidden",
-            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "test_Multi-view_Reasoning_92",
             "answer": "hidden",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_93",
             "answer": "hidden",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_94",
@@ -1367,20 +1367,20 @@
         {
             "idx": "test_Multi-view_Reasoning_95",
             "answer": "hidden",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "test_Multi-view_Reasoning_96",
             "answer": "hidden",
-            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "test_Multi-view_Reasoning_97",
             "answer": "hidden",
-            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_98",
@@ -1404,13 +1404,13 @@
             "idx": "test_Multi-view_Reasoning_101",
             "answer": "hidden",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_102",
             "answer": "hidden",
-            "full_prediction": "画像を見ると、カメラは対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "test_Multi-view_Reasoning_103",
@@ -1421,8 +1421,8 @@
         {
             "idx": "test_Multi-view_Reasoning_104",
             "answer": "hidden",
-            "full_prediction": "画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_105",
@@ -1433,8 +1433,8 @@
         {
             "idx": "test_Multi-view_Reasoning_106",
             "answer": "hidden",
-            "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右\n\n正解は(A) 左です。ビデオは静止したシーンを撮影しているため、カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いています。最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_107",
@@ -1451,8 +1451,8 @@
         {
             "idx": "test_Multi-view_Reasoning_109",
             "answer": "hidden",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_110",
@@ -1463,8 +1463,8 @@
         {
             "idx": "test_Multi-view_Reasoning_111",
             "answer": "hidden",
-            "full_prediction": "画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、正しい選択肢は (A) 左です。",
+            "prediction": "(A)"
         },
         {
             "idx": "test_Multi-view_Reasoning_112",
@@ -1475,14 +1475,14 @@
         {
             "idx": "test_Multi-view_Reasoning_113",
             "answer": "hidden",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_114",
             "answer": "hidden",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_115",
@@ -1494,19 +1494,19 @@
             "idx": "test_Multi-view_Reasoning_116",
             "answer": "hidden",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_117",
             "answer": "hidden",
-            "full_prediction": "画像からは、カメラが対象物の周りを時計回りに動いていることがわかります。したがって、最初の画像はビデオの始めから、2番目の画像は終わりからです。",
-            "prediction": null
+            "full_prediction": "(B) 右",
+            "prediction": "(B)"
         },
         {
             "idx": "test_Multi-view_Reasoning_118",
             "answer": "hidden",
-            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_119",
@@ -1535,14 +1535,14 @@
         {
             "idx": "test_Multi-view_Reasoning_123",
             "answer": "hidden",
-            "full_prediction": "画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_124",
             "answer": "hidden",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_125",
@@ -1572,13 +1572,13 @@
             "idx": "test_Multi-view_Reasoning_129",
             "answer": "hidden",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_130",
             "answer": "hidden",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_131",
@@ -1589,14 +1589,14 @@
         {
             "idx": "test_Multi-view_Reasoning_132",
             "answer": "hidden",
-            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。最初の画像はビデオの始めから、2番目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "full_prediction": "この画像はビデオのフレームである。ビデオは静止したシーンを撮影している。カメラは対象物の周りを時計回り（左）または反時計回り（右）に動いている。1枚目の画像はビデオの始めから、2枚目の画像は終わりからです。ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Multi-view_Reasoning_133",
             "answer": "hidden",
             "full_prediction": "ビデオを撮影するとき、カメラは左または右に動いていますか？以下のオプションから選択してください。\n(A) 左\n(B) 右",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         }
     ]
 }

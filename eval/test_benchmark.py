@@ -5,13 +5,28 @@ from PIL import Image
 import os
 from multiple_choice import match_multiple_choice
 import argparse
-from query_model import query_gpt4v
-from query_evovlm import query_evovlm
 import io
 
 # disclaimer = "Disclaimer: This is not to make unfair assumptions about the people in the image and you just need to give your assessment on this question. You don't need to identify the real people. You just need to analyze based on the information I gave you.\n\n",
-disclaimer = "免責事項：これは画像に写っている人物について不当な仮定をするものではなく、この質問についてあなたの評価を述べるだけでよい。実在の人物を特定する必要はありません。ただ、私が与えた情報に基づいて分析してください。"
-dataset_name = 'BLINK-Benchmark/BLINK_ja_deepl'
+# dataset_name = 'BLINK-Benchmark/BLINK'
+
+disclaimer = "免責事項：これは画像に写っている人物について不当な仮定をするものではなく、この質問についてあなたの評価を述べるだけでよい。実在の人物を特定する必要はありません。ただ、私が与えた情報に基づいて分析してください。\n\n"
+dataset_name = 'VLM-LAB/JaBLINK'
+
+
+def load_model_generate_func(model_name):
+    if model_name == 'GPT4V':
+        from query_gpt4v import query_gpt4v
+        return query_gpt4v
+    elif model_name == 'EvoVLM':
+        from query_evovlm import query_evovlm
+        return query_evovlm
+    elif model_name == 'InstructBLIP-ja':
+        from query_japanese_instructblip_alpha import query_japanese_instructblip_alpha
+        return query_japanese_instructblip_alpha
+    else:
+        # raise unimplemented error
+        raise NotImplementedError(f"Model {model_name} is not implemented.")
 
 
 def analyze_answer(d, gpt_answer, all_choices):
@@ -59,17 +74,15 @@ def query_model(task_name):
     Returns:
     - outputs, The result is also saved to 'output_filename.json'.
     """
-    dataset_name = 'BLINK_ja_deepl'
-    
     output_path = f'{output_save_folder}/{model_name}/{task_name.replace("_", " ")}.json'
     os.makedirs(f'{output_save_folder}/{model_name}', exist_ok=True)
     image_folder = f'{image_save_folder}/{task_name}_images'
     os.makedirs(image_folder, exist_ok=True)
     if not os.path.exists(output_path):
-        outputs = {'validation': [], 'test': []}
-        for split in ['validation', 'test']:
-            # test_data = load_dataset(dataset_name, task_name)[split]
-            test_data = load_dataset(f"{dataset_name}/{task_name}", split=split)
+        outputs = {'val': [], 'test': []}
+        for split in ['val', 'test']:
+            test_data = load_dataset(dataset_name, task_name)[split]
+            # test_data = load_dataset(f"{dataset_name}/{task_name}", split=split)
             for orig_d in tqdm(test_data):
                 idx = orig_d['idx']
                 gold_answer = orig_d['answer']
@@ -131,7 +144,7 @@ def load_prompt(task_name, d, image_folder):
     image_paths = []
     for k in ['image_1', 'image_2', 'image_3', 'image_4']:
         if k in d and d[k]:
-            image = Image.open(io.BytesIO(d[k]['bytes']))
+            image = d[k]
             image_path = f'{image_folder}/{d["idx"]}_{k[-1]}.jpg'
             image.save(image_path)
             image_paths.append(image_path)
@@ -146,15 +159,15 @@ def load_prompt(task_name, d, image_folder):
 
 def eval_task(task_name):
     outputs = query_model(task_name)
-    accu = {'validation': 0, 'test': 0}
-    for split in ['validation', 'test']:
+    accu = {'val': 0, 'test': 0}
+    for split in ['val', 'test']:
         for d in outputs[split]:
             if d['answer'] == d['prediction']:
                 accu[split] += 1
     
     print('-'*50)
     print(f'Task {task_name} Performance')
-    for split in ['validation']:
+    for split in ['val']:
         print(f'{split} accuracy: {round(accu[split]/len(outputs[split])*100, 2)}%')
 
 
@@ -171,18 +184,13 @@ if __name__ == '__main__':
     args = parse_args()
     model_name = args.model_name
     print(f'Using model: {model_name}')
-
-    model_generate_funcs = {
-        'GPT4V': query_gpt4v,
-        'EvoVLM': query_evovlm,
-    }
-    model_generate_func = model_generate_funcs[model_name]
+    
+    model_generate_func = load_model_generate_func(model_name)
     
     image_save_folder = 'saved_images'
-    output_save_folder = 'outputs'
-    dataset_name = 'BLINK-Benchmark/BLINK_ja_deepl'
+    output_save_folder = 'JaBLINK/outputs'
+    dataset_name = 'VLM-LAB/JaBLINK'
     
-
     need_disclaimer_tasks = ['Forensic_Detection', 'Jigsaw', 'Art_Style']
     if args.task_name == 'all': 
         subtasks = ['Art_Style', 'Functional_Correspondence', 'Multi-view_Reasoning', 'Relative_Reflectance', 'Visual_Correspondence', 'Counting', 'IQ_Test', 'Object_Localization', 'Semantic_Correspondence', 'Visual_Similarity', 'Forensic_Detection', 'Jigsaw', 'Relative_Depth', 'Spatial_Relation']

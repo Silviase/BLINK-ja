@@ -1,9 +1,7 @@
 import torch
 from transformers import AutoModelForVision2Seq, AutoProcessor
 from PIL import Image
-import requests
 
-# 1. load model
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model_id = "SakanaAI/EvoVLM-JP-v1-7B"
 model = AutoModelForVision2Seq.from_pretrained(model_id, torch_dtype=torch.float16)

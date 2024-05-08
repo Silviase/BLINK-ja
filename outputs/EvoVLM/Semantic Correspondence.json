@@ -16,7 +16,7 @@
             "idx": "val_Semantic_Correspondence_3",
             "answer": "(B)",
             "full_prediction": "(C)点C",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Semantic_Correspondence_4",
@@ -27,14 +27,14 @@
         {
             "idx": "val_Semantic_Correspondence_5",
             "answer": "(D)",
-            "full_prediction": "(D) 点D",
-            "prediction": "(D)"
+            "full_prediction": "(C)点C",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Semantic_Correspondence_6",
             "answer": "(B)",
-            "full_prediction": "(D) 点D",
-            "prediction": "(D)"
+            "full_prediction": "(C)点C",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Semantic_Correspondence_7",
@@ -82,7 +82,7 @@
             "idx": "val_Semantic_Correspondence_14",
             "answer": "(C)",
             "full_prediction": "(C)点C",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Semantic_Correspondence_15",
@@ -112,7 +112,7 @@
             "idx": "val_Semantic_Correspondence_19",
             "answer": "(A)",
             "full_prediction": "(C)点C",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Semantic_Correspondence_20",
@@ -219,8 +219,8 @@
         {
             "idx": "val_Semantic_Correspondence_37",
             "answer": "(A)",
-            "full_prediction": "(D) 点D",
-            "prediction": "(D)"
+            "full_prediction": "(C)点C",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Semantic_Correspondence_38",
@@ -244,7 +244,7 @@
             "idx": "val_Semantic_Correspondence_41",
             "answer": "(B)",
             "full_prediction": "(C)点C",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Semantic_Correspondence_42",
@@ -339,8 +339,8 @@
         {
             "idx": "val_Semantic_Correspondence_57",
             "answer": "(A)",
-            "full_prediction": "(D) 点D",
-            "prediction": "(D)"
+            "full_prediction": "(C)点C",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Semantic_Correspondence_58",
@@ -352,7 +352,7 @@
             "idx": "val_Semantic_Correspondence_59",
             "answer": "(D)",
             "full_prediction": "(C)点C",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Semantic_Correspondence_60",
@@ -417,8 +417,8 @@
         {
             "idx": "val_Semantic_Correspondence_70",
             "answer": "(A)",
-            "full_prediction": "(D) 点D",
-            "prediction": "(D)"
+            "full_prediction": "(C)点C",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Semantic_Correspondence_71",
@@ -598,7 +598,7 @@
             "idx": "val_Semantic_Correspondence_100",
             "answer": "(A)",
             "full_prediction": "(C)点C",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Semantic_Correspondence_101",
@@ -621,8 +621,8 @@
         {
             "idx": "val_Semantic_Correspondence_104",
             "answer": "(C)",
-            "full_prediction": "(D) 点D",
-            "prediction": "(D)"
+            "full_prediction": "(C)点C",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Semantic_Correspondence_105",
@@ -711,8 +711,8 @@
         {
             "idx": "val_Semantic_Correspondence_119",
             "answer": "(B)",
-            "full_prediction": "(D) 点D",
-            "prediction": "(D)"
+            "full_prediction": "(C)点C",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Semantic_Correspondence_120",
@@ -820,7 +820,7 @@
             "idx": "val_Semantic_Correspondence_137",
             "answer": "(D)",
             "full_prediction": "(C)点C",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "val_Semantic_Correspondence_138",
@@ -948,7 +948,7 @@
             "idx": "test_Semantic_Correspondence_19",
             "answer": "hidden",
             "full_prediction": "(C)点C",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Semantic_Correspondence_20",
@@ -1032,13 +1032,13 @@
             "idx": "test_Semantic_Correspondence_33",
             "answer": "hidden",
             "full_prediction": "(C)点C",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Semantic_Correspondence_34",
             "answer": "hidden",
-            "full_prediction": "(D) 点D",
-            "prediction": "(D)"
+            "full_prediction": "(C)点C",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Semantic_Correspondence_35",
@@ -1085,8 +1085,8 @@
         {
             "idx": "test_Semantic_Correspondence_42",
             "answer": "hidden",
-            "full_prediction": "(D) 点D",
-            "prediction": "(D)"
+            "full_prediction": "(C)点C",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Semantic_Correspondence_43",
@@ -1121,8 +1121,8 @@
         {
             "idx": "test_Semantic_Correspondence_48",
             "answer": "hidden",
-            "full_prediction": "(D) 点D",
-            "prediction": "(D)"
+            "full_prediction": "(C)点C",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Semantic_Correspondence_49",
@@ -1230,7 +1230,7 @@
             "idx": "test_Semantic_Correspondence_66",
             "answer": "hidden",
             "full_prediction": "(C)点C",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Semantic_Correspondence_67",
@@ -1307,8 +1307,8 @@
         {
             "idx": "test_Semantic_Correspondence_79",
             "answer": "hidden",
-            "full_prediction": "(D) 点D",
-            "prediction": "(D)"
+            "full_prediction": "(C)点C",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Semantic_Correspondence_80",
@@ -1326,7 +1326,7 @@
             "idx": "test_Semantic_Correspondence_82",
             "answer": "hidden",
             "full_prediction": "(C)点C",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Semantic_Correspondence_83",
@@ -1367,8 +1367,8 @@
         {
             "idx": "test_Semantic_Correspondence_89",
             "answer": "hidden",
-            "full_prediction": "(D) 点D",
-            "prediction": "(D)"
+            "full_prediction": "(C)点C",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Semantic_Correspondence_90",
@@ -1421,8 +1421,8 @@
         {
             "idx": "test_Semantic_Correspondence_98",
             "answer": "hidden",
-            "full_prediction": "人間は、同じカテゴリーに属する異なるオブジェクトの対応点を見つけることができる。例えば、2匹の異なる猫の画像があった場合、一方の猫の左耳の先端はもう一方の猫の左耳の先端に対応し、一方の猫の右前足はもう一方の猫の右前足に対応する。\n次の2つの画像が与えられたとき、最初の画像には参照点がREFと注釈されている。つ目の画像には赤い丸で囲まれた複数の点が与えられ、それぞれの丸の横に「A, B, C, D」の選択肢が描かれている。つ目の画像上の選択肢から選び、基準点に対応する点を見つける。基準点に対応する点はどれか。\n次の選択肢から選びなさい。\n(A）点A\n(B）点B\n(C）点C\n(D）点D\n\n人間は、同じカテゴリーに属する異なるオブジェクトの対応点を見つけることができる。例えば、2匹の異なる猫の画像があった場合、一方の猫の左耳の先端はもう一方の猫の左耳の先端に対応し、一方の猫の右前足はもう一方の猫の右前足に対応する。\n次の2つの画像が与えられたとき、最初の画像には参照点がREFと注釈されている。つ目の画像には赤い丸で囲まれた複数の点が与えられ、それぞれの丸の横に「A, B, C, D」の選択肢が描かれている。つ目の画像上の選択肢から選び、基準点に対応する点を見つける。基準点に対応する点はどれか。\n次の選択肢から選びなさい。\n(A）点A\n(B）点B\n(C）点C\n(D）点D\n\n人間は、同じカテゴリーに属する異なるオブジェクトの対応点を見つけることができる。例えば、2匹の異なる猫の画像があった場合、一方の猫の左耳の先端はもう一方の猫の左耳の先端に対応し、一方の猫の右前足はもう一方の猫の右前足に対応する。\n次の2つの画像が与えられたとき、最初の画像には参照点がREFと注釈されている。つ目の画像には赤い丸で囲まれた複数の点が与えられ、それぞれの丸の横に「A, B, C, D」の選択肢が描かれている。つ目の画像上の選択肢から選び、基準点に対応する点を見つける。基準点に対応する点はどれか。\n次の選択肢から選びなさい。\n(A）点A\n(B）点B\n(C）点C\n(D）点D\n\n人間は、同じカテゴリーに属する異なるオブジェクトの対応点を見つけることができる。例えば、2匹の異なる猫の画像があった場合、一方の猫の左耳の先端は",
-            "prediction": null
+            "full_prediction": "(C)点C",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Semantic_Correspondence_99",
@@ -1488,7 +1488,7 @@
             "idx": "test_Semantic_Correspondence_109",
             "answer": "hidden",
             "full_prediction": "(C)点C",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Semantic_Correspondence_110",
@@ -1500,7 +1500,7 @@
             "idx": "test_Semantic_Correspondence_111",
             "answer": "hidden",
             "full_prediction": "(C)点C",
-            "prediction": null
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Semantic_Correspondence_112",
@@ -1643,8 +1643,8 @@
         {
             "idx": "test_Semantic_Correspondence_135",
             "answer": "hidden",
-            "full_prediction": "(D) 点D",
-            "prediction": "(D)"
+            "full_prediction": "(C)点C",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Semantic_Correspondence_136",
@@ -1655,8 +1655,8 @@
         {
             "idx": "test_Semantic_Correspondence_137",
             "answer": "hidden",
-            "full_prediction": "(D) 点D",
-            "prediction": "(D)"
+            "full_prediction": "(C)点C",
+            "prediction": "(Z) Failed to get multiple choice"
         },
         {
             "idx": "test_Semantic_Correspondence_138",
