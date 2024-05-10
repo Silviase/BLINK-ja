@@ -16,14 +16,17 @@ dataset_name = 'VLM-LAB/JaBLINK'
 
 def load_model_generate_func(model_name):
     if model_name == 'GPT4V':
-        from query_gpt4v import query_gpt4v
+        from query_model import query_gpt4v
         return query_gpt4v
-    elif model_name == 'EvoVLM':
+    elif model_name == 'SakanaAI/EvoVLM-JP-v1-7B':
         from query_evovlm import query_evovlm
         return query_evovlm
-    elif model_name == 'InstructBLIP-ja':
+    elif model_name == 'stabilityai/japanese-instructblip-alpha':
         from query_japanese_instructblip_alpha import query_japanese_instructblip_alpha
         return query_japanese_instructblip_alpha
+    elif model_name == 'Qwen/Qwen-VL-Chat':
+        from query_qwen import query_qwen
+        return query_qwen
     else:
         # raise unimplemented error
         raise NotImplementedError(f"Model {model_name} is not implemented.")
