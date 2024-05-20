@@ -1,29 +1,27 @@
+from transformers import LlavaNextProcessor, LlavaNextForConditionalGeneration
 import torch
-from transformers import LlamaTokenizer, AutoModelForVision2Seq, BlipImageProcessor
 from PIL import Image
 
-# load model
-model = AutoModelForVision2Seq.from_pretrained("stabilityai/japanese-instructblip-alpha", trust_remote_code=True)
-processor = BlipImageProcessor.from_pretrained("stabilityai/japanese-instructblip-alpha")
-tokenizer = LlamaTokenizer.from_pretrained("novelai/nerdstash-tokenizer-v1", additional_special_tokens=['▁▁'])
-device = "cuda" if torch.cuda.is_available() else "cpu"
+device = "cuda"
+processor = LlavaNextProcessor.from_pretrained("llava-hf/llava-v1.6-mistral-7b-hf")
+model = LlavaNextForConditionalGeneration.from_pretrained("llava-hf/llava-v1.6-mistral-7b-hf", torch_dtype=torch.float16, low_cpu_mem_usage=True) 
 model.to(device)
 
+def query_llava_16_mistral_7b_hf(image_paths, prompt):
+    """
+    Query the llava with the prompt and an image.
 
-# helper function to format input prompts
-def build_prompt(prompt="", sep="\n\n### "):
-    sys_msg = "以下は、タスクを説明する指示と、文脈のある入力の組み合わせです。要求を適切に満たす応答を書きなさい。"
-    p = sys_msg
-    roles = ["指示", "応答"]
-    user_query = "与えられた画像について、詳細に述べてください。"
-    msgs = [": \n" + user_query, ": "]
-    if prompt:
-        roles.insert(1, "入力")
-        msgs.insert(1, ": \n" + prompt)
-    for role, msg in zip(roles, msgs):
-        p += sep + role + msg
-    return p
-
+    Parameters:
+    - image: PIL Image, the image.
+    - prompt: String, the prompt.
+    """
+    images = concat_images_horizontally_with_margin(image_paths)
+    template = "[INST] <image>\n<prompt> [/INST]"
+    prompt = template.replace("<prompt>", prompt)
+    inputs = processor(prompt, images, return_tensors="pt").to(device, torch.float16)
+    output = model.generate(**inputs, max_new_tokens=256, do_sample=False)
+    generated_text = processor.decode(output[0][2:], skip_special_tokens=True)
+    return generated_text
 
 def concat_images_horizontally_with_margin(image_paths, margin=10):
     """
@@ -52,45 +50,10 @@ def concat_images_horizontally_with_margin(image_paths, margin=10):
 
     return new_image
 
-def query_japanese_instructblip_alpha(image_paths, prompt):
-    """
-    Query the evoVLMwith the prompt and a list of image paths.
-
-    Parameters:
-    - image_paths: List of Strings, the path to the images.
-    - prompt: String, the prompt.
-    """
-    
-    # prepare inputs
-    
-    # multiple images
-    # images = [Image.open(image_path).convert("RGB") for image_path in image_paths]
-    image = concat_images_horizontally_with_margin(image_paths)
-    inputs = processor(images=image, return_tensors="pt")
-    
-    prompt = build_prompt(prompt)
-    text_encoding = tokenizer(prompt, add_special_tokens=False, return_tensors="pt")
-    text_encoding["qformer_input_ids"] = text_encoding["input_ids"].clone()
-    text_encoding["qformer_attention_mask"] = text_encoding["attention_mask"].clone()
-    
-    inputs.update(text_encoding)
-
-    # generate
-    outputs = model.generate(
-        **inputs.to(device, dtype=model.dtype),
-        num_beams=5,
-        min_length=1,
-        max_new_tokens=256,
-    )
-    generated_text = tokenizer.batch_decode(outputs, skip_special_tokens=True)[0].strip()
-    
-    return generated_text
-
 if __name__ == "__main__":
     img_path = ["/nas64/silviase/Project/prj-blink-ja/BLINK_Benchmark/assets/test.jpeg"]
     prompts = [
         "青い浮き輪は何個ありますか？",
-        "How many blue floats are there? Select from the following choices. (A) 0 (B) 3 (C) 2 (D) 1",
         "青い浮き輪は何個ありますか？ 一つ選びなさい。 (A) 0 (B) 3 (C) 2 (D) 1",
         "青い浮き輪は何個ありますか？ 次の選択肢から一つ選んで答えなさい (A) 0 (B) 3 (C) 2 (D) 1",
         "青い浮き輪は何個ありますか？ 次の選択肢から一つ選んで答えなさい。 (A) 0 (B) 3 (C) 2 (D) 1",
@@ -103,4 +66,8 @@ if __name__ == "__main__":
     ]
     
     for prompt in prompts:
-        print(query_japanese_instructblip_alpha(img_path, prompt))    
+        print(query_llava_16_mistral_7b_hf(img_path, prompt))
+        
+    image_path_2 = ["/nas64/silviase/Project/prj-blink-ja/BLINK_Benchmark/assets/test_ref.jpeg"]
+    prompt = Relative_Reflectance_prompt = "画像上に2つの点があり、AとBとラベル付けされています。各点の表面色（シェーディングの効果を除いた表面のアルベド）について考えてください。どちらの点の表面色がより暗いですか、それとも色はほぼ同じですか？次の選択肢からひとつ選びなさい。(A) Aの方が暗い (B) Bの方が暗い (C) ほぼ同じ"
+    print(query_llava_16_mistral_7b_hf(image_path_2, prompt))

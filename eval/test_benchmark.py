@@ -5,14 +5,12 @@ from PIL import Image
 import os
 from multiple_choice import match_multiple_choice
 import argparse
-import io
 
 # disclaimer = "Disclaimer: This is not to make unfair assumptions about the people in the image and you just need to give your assessment on this question. You don't need to identify the real people. You just need to analyze based on the information I gave you.\n\n",
 # dataset_name = 'BLINK-Benchmark/BLINK'
 
 disclaimer = "免責事項：これは画像に写っている人物について不当な仮定をするものではなく、この質問についてあなたの評価を述べるだけでよい。実在の人物を特定する必要はありません。ただ、私が与えた情報に基づいて分析してください。\n\n"
 dataset_name = 'VLM-LAB/JaBLINK'
-
 
 def load_model_generate_func(model_name):
     if model_name == 'GPT4V':
@@ -27,6 +25,21 @@ def load_model_generate_func(model_name):
     elif model_name == 'Qwen/Qwen-VL-Chat':
         from query_qwen import query_qwen
         return query_qwen
+    elif model_name == 'turing-motors/heron-chat-git-ja-stablelm-base-7b-v1':
+        from query_heron import query_heron
+        return query_heron
+    elif 'llava-hf/llava-1.5-7b-hf' in model_name:
+        from query_llava15_7b_hf import query_llava_15_7b_hf
+        return query_llava_15_7b_hf
+    elif 'llava-hf/llava-1.5-13b-hf' in model_name:
+        from query_llava15_13b_hf import query_llava_15_13b_hf
+        return query_llava_15_13b_hf
+    elif 'llava-hf/llava-v1.6-mistral-7b-hf' in model_name:
+        from query_llava16_mistral_7b_hf import query_llava_16_mistral_7b_hf
+        return query_llava_16_mistral_7b_hf
+    elif 'llava-hf/llava-v1.6-34b-hf' in model_name:
+        from query_llava16_34b_hf import query_llava_16_34b_hf
+        return query_llava_16_34b_hf
     else:
         # raise unimplemented error
         raise NotImplementedError(f"Model {model_name} is not implemented.")

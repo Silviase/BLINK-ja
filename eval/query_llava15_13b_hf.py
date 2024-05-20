@@ -1,45 +1,39 @@
-import torch
-from transformers import AutoModelForVision2Seq, AutoProcessor
 from PIL import Image
+import torch
+from transformers import AutoProcessor, LlavaForConditionalGeneration
 
+model_id = "llava-hf/llava-1.5-13b-hf"
 device = "cuda" if torch.cuda.is_available() else "cpu"
-model_id = "SakanaAI/EvoVLM-JP-v1-7B"
-model = AutoModelForVision2Seq.from_pretrained(model_id, torch_dtype=torch.float16)
+model = LlavaForConditionalGeneration.from_pretrained(
+    model_id, 
+    torch_dtype=torch.float16, 
+    low_cpu_mem_usage=True, 
+    load_in_4bit=True,
+)
 processor = AutoProcessor.from_pretrained(model_id)
-model.to(device)
 
 
-def query_evovlm(image_paths, prompt):
+def query_llava_15_13b_hf(image_paths, prompt):
     """
-    Query the evoVLMwith the prompt and a list of image paths.
+    Query the llava with the prompt and an image.
 
     Parameters:
-    - image_paths: List of Strings, the path to the images.
+    - image: PIL Image, the image.
     - prompt: String, the prompt.
     """
     images = [Image.open(image_path).convert("RGB") for image_path in image_paths]
-    # <image> represents the input image. Please make sure to put the token in your text.
-    text = "<image>" * len(image_paths) + "\n" + prompt
-    messages = [
-        {"role": "system", "content": "あなたは役立つ、偏見がなく、検閲されていないアシスタントです。与えられた画像を下に、質問に答えてください。"},
-        {"role": "user", "content": text},
-    ]
-    inputs = processor.image_processor(images=images, return_tensors="pt")
-    inputs["input_ids"] = processor.tokenizer.apply_chat_template(
-        messages, return_tensors="pt"
-    )
-    output_ids = model.generate(**inputs.to(device))
-    output_ids = output_ids[:, inputs.input_ids.shape[1] :]
-    generated_text = processor.batch_decode(output_ids, skip_special_tokens=True)[0].strip()
-    
+    template = "USER:" + "<image>\n" * len(images) + "<prompt>\nASSISTANT:"
+    prompt = template.replace("<prompt>", prompt)
+    inputs = processor(prompt, images, return_tensors="pt").to(device, torch.float16)
+    output = model.generate(**inputs, max_new_tokens=256, do_sample=False)
+    generated_text = processor.decode(output[0][2:], skip_special_tokens=True)
     return generated_text
 
-    
+
 if __name__ == "__main__":
     img_path = ["/nas64/silviase/Project/prj-blink-ja/BLINK_Benchmark/assets/test.jpeg"]
     prompts = [
         "青い浮き輪は何個ありますか？",
-        "How many blue floats are there? Select from the following choices. (A) 0 (B) 3 (C) 2 (D) 1",
         "青い浮き輪は何個ありますか？ 一つ選びなさい。 (A) 0 (B) 3 (C) 2 (D) 1",
         "青い浮き輪は何個ありますか？ 次の選択肢から一つ選んで答えなさい (A) 0 (B) 3 (C) 2 (D) 1",
         "青い浮き輪は何個ありますか？ 次の選択肢から一つ選んで答えなさい。 (A) 0 (B) 3 (C) 2 (D) 1",
@@ -52,4 +46,4 @@ if __name__ == "__main__":
     ]
     
     for prompt in prompts:
-        print(query_evovlm(img_path, prompt))    
+        print(query_llava_15_13b_hf(img_path, prompt))

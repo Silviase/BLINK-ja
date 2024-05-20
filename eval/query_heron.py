@@ -1,24 +1,24 @@
 import torch
-from heron.models.video_blip import VideoBlipForConditionalGeneration, VideoBlipProcessor
-from transformers import LlamaTokenizer
+from heron.models.git_llm.git_japanese_stablelm_alpha import GitJapaneseStableLMAlphaForCausalLM
+from transformers import AutoProcessor, LlamaTokenizer
 from PIL import Image
 
-device_id = 0
-device = f"cuda:{device_id}"
-max_length = 512
-model_id = "turing-motors/heron-chat-blip-ja-stablelm-base-7b-v1"
-model = VideoBlipForConditionalGeneration.from_pretrained(
+device = f"cuda"
+model_id = "turing-motors/heron-chat-git-ja-stablelm-base-7b-v1"
+model = GitJapaneseStableLMAlphaForCausalLM.from_pretrained(
     model_id, torch_dtype=torch.float16, ignore_mismatched_sizes=True
 )
-model = model.half()
 model.eval()
 model.to(device)
 
 # prepare a processor
-processor = VideoBlipProcessor.from_pretrained("Salesforce/blip2-opt-2.7b")
-tokenizer = LlamaTokenizer.from_pretrained("novelai/nerdstash-tokenizer-v1", additional_special_tokens=['▁▁'])
+processor = AutoProcessor.from_pretrained(model_id)
+tokenizer = LlamaTokenizer.from_pretrained(
+    "novelai/nerdstash-tokenizer-v1",
+    padding_side="right",
+    additional_special_tokens=["▁▁"],
+)
 processor.tokenizer = tokenizer
-
 
 # inference 
 def query_heron(image_paths, prompt):
@@ -30,8 +30,11 @@ def query_heron(image_paths, prompt):
     - prompt: String, the prompt.
     """
     
-    images = [Image.open(image_path) for image_path in image_paths]
-    text = f"##human: {prompt}\n##gpt: "
+    # prepare inputs
+    # images = [Image.open(image_path) for image_path in image_paths]
+    images = concat_images_horizontally_with_margin(image_paths)
+
+    text = f"##human: {prompt}?\n##gpt: "
 
     # do preprocessing
     inputs = processor(
@@ -42,24 +45,57 @@ def query_heron(image_paths, prompt):
     )
 
     inputs = {k: v.to(device) for k, v in inputs.items()}
-    inputs["pixel_values"] = inputs["pixel_values"].to(device, torch.float16)
-
-    # set eos token
-    eos_token_id_list = [
-        processor.tokenizer.pad_token_id,
-        processor.tokenizer.eos_token_id,
-        int(tokenizer.convert_tokens_to_ids("##"))
-    ]
 
     # do inference
     with torch.no_grad():
-        out = model.generate(**inputs, max_length=256, do_sample=False, temperature=0., eos_token_id=eos_token_id_list, no_repeat_ngram_size=2)
-    generated_text = processor.tokenizer.batch_decode(out)
-    
+        out = model.generate(**inputs, max_length=256, do_sample=False, temperature=0., no_repeat_ngram_size=2)
+
+    # print result
+    generated_text = processor.tokenizer.batch_decode(out)[0].split("##gpt: ")[1].replace("<|endoftext|>", "")
     return generated_text
 
+def concat_images_horizontally_with_margin(image_paths, margin=10):
+    """
+    Concatenates images horizontally with a specified margin between images,
+    padding with black if heights are not the same, and saves the result to a file.
+
+    Parameters:
+    - image_filenames: List of strings, where each string is the filepath to an image.
+    - margin: Integer, the width of the black margin to insert between images.
+
+    Returns:
+    - new_image: PIL Image, the concatenated image.
+    """
+    images = [Image.open(filename) for filename in image_paths]
+    max_height = max(image.height for image in images)
+    total_width = sum(image.width for image in images) + margin * (len(images) - 1)
+    # Create a new image with a black background
+    new_image = Image.new('RGB', (total_width, max_height), (0, 0, 0))
+    
+    x_offset = 0
+    for image in images:
+        # Calculate padding to center the image vertically
+        y_offset = (max_height - image.height) // 2
+        new_image.paste(image, (x_offset, y_offset))
+        x_offset += image.width + margin  # Add margin after each image except the last one
+
+    return new_image
     
 if __name__ == "__main__":
-    img_path = ["/nas64/silviase/Project/prj-blink-ja/submodule/BLINK_Benchmark/assets/teaser.png"]
-    prompt = "この画像について説明してください。"
-    print(query_heron(img_path, prompt))    
+    img_path = ["/nas64/silviase/Project/prj-blink-ja/BLINK_Benchmark/assets/test.jpeg"]
+    prompts = [
+        "青い浮き輪は何個ありますか？",
+        "How many blue floats are there? Select from the following choices. (A) 0 (B) 3 (C) 2 (D) 1",
+        "青い浮き輪は何個ありますか？ 一つ選びなさい。 (A) 0 (B) 3 (C) 2 (D) 1",
+        "青い浮き輪は何個ありますか？ 次の選択肢から一つ選んで答えなさい (A) 0 (B) 3 (C) 2 (D) 1",
+        "青い浮き輪は何個ありますか？ 次の選択肢から一つ選んで答えなさい。 (A) 0 (B) 3 (C) 2 (D) 1",
+        "青い浮き輪は何個ありますか？ 次の選択肢から一つ選びなさい (A) 0 (B) 3 (C) 2 (D) 1",
+        "青い浮き輪は何個ありますか？ 次の選択肢から一つ選びなさい。 (A) 0 (B) 3 (C) 2 (D) 1",
+        "青い浮き輪は何個ありますか？ 次の選択肢から答えなさい (A) 0 (B) 3 (C) 2 (D) 1",
+        "青い浮き輪は何個ありますか？ 次の選択肢から答えなさい。 (A) 0 (B) 3 (C) 2 (D) 1",
+        "青い浮き輪は何個ありますか？ 次の選択肢から選びなさい (A) 0 (B) 3 (C) 2 (D) 1",
+        "青い浮き輪は何個ありますか？ 次の選択肢から選びなさい。 (A) 0 (B) 3 (C) 2 (D) 1",
+    ]
+    
+    for prompt in prompts:
+        print(query_heron(img_path, prompt))    
